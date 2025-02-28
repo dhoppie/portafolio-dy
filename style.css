@@ -1,0 +1,22 @@
+/* Add styles here */
+:root {
+    /* here variable goes */
+    --color-primary: #cb5c47;
+}
+
+/*import bootstrap */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.btn--primary {
+    color: var(--color-primary);
+}
+.icono {
+    max-width: 150px;}
+
+.foto {
+    max-width: 200px;
+}
+
+.iconocontacto {
+    max-width: 45px;
+}

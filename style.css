@@ -2,6 +2,10 @@
 :root {
     /* here variable goes */
     --color-primary: #cb5c47;
+    --color-secondary:
+
+    --font-headings:
+    --font-body:
 }
 
 /*import bootstrap */
@@ -19,4 +23,60 @@
 
 .iconocontacto {
     max-width: 45px;
+}
+
+/* Importar bootstrap */
+
+
+
+
+
+
+/* Importar bootstrap */
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Cherry+Bomb+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Cherry+Bomb+One&family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Cherry+Bomb+One&family=Covered+By+Your+Grace&family=Gabarito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+</style>
+
+
+/* Fonts */
+.covered-by-your-grace-regular {
+    font-family: "Covered By Your Grace", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .cherry-bomb-one-regular {
+    font-family: "Cherry Bomb One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .gabarito-<uniquifier> {
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+/* Programas Iconos */
+
+.iconos{ 
+    max-width:70px;
+}
+.iconos{ 
+    max-width:70px;
+}
+.iconos{ 
+    max-width:70px;
+}
+.Davinci{ 
+    max-width:70px;
+}
+
+.AfterEffects{ 
+    max-width:70px;
 }

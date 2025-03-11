@@ -76,6 +76,40 @@
     max-width:70px;
 }
 
-/* Programas */
+/* Proyecto MAPU*/
+
+.MAPU{ 
+    max-width:400px;
+}
+.patron{ 
+    max-width:400px;
+}
+
+/* Proyecto RTP */
+.Mapaubicación{ 
+    max-width:400px;
+}
+
+.reticula{ 
+    max-width:200px;
+}
+
+.logoRTP{ 
+    max-width:200px;
+}
+
+.logoRTP2{ 
+    max-width:200px;
+}
+
+/* Contacto final*/
+.HOPIE{ 
+    max-width:300px;
+}
 
 
+.habilidades-rojo{
+background-color: #cb5c47;
+padding: 1rem;
+
+}

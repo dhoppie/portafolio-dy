@@ -1,62 +1,127 @@
 /* Add styles here */
 :root {
     /* here variable goes */
-    --color-primary: #cb5c47;
-    --color-secondary:
+    --color-primary: #b12a28;
+    --color-fondo: #FDF0D5;
 
-    --font-headings:
-    --font-body:
+    
+    /* --font-headings: */
+    --font-body: #000000;
 }
 
 /*import bootstrap */
 @import '~bootstrap/dist/css/bootstrap.min.css';
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
+/*size imagenes */
 .btn--primary {
     color: var(--color-primary);
 }
 .icono {
-    max-width: 150px;}
+    max-width: 200px;}
 
 .foto {
-    max-width: 200px;
+    max-width: 300px;
 }
 
 .iconocontacto {
     max-width: 45px;
 }
 
-/* Importar bootstrap */
+.estrella1 {
+    max-width: 100px;
+}
+
+.estrella2 {
+    max-width: 80px;
+}
+/* Importar bootstrap iconos */
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
 
 
+.my-icon{
+    color: black;
+    font-size: 3rem;
+}
 
-
-
-
-/* Importar bootstrap */
+/* Importar fuentes */
 
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Cherry+Bomb+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Cherry+Bomb+One&family=Covered+By+Your+Grace&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Cherry+Bomb+One&family=Covered+By+Your+Grace&family=Gabarito&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
 
-
-
 /* Fonts */
-.covered-by-your-grace-regular {
-    font-family: "Covered By Your Grace", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
 
-  .cherry-bomb-one-regular {
+h1.title {
     font-family: "Cherry Bomb One", system-ui;
     font-weight: 400;
     font-style: normal;
+    font-size: 200px;
+    color: var(--color-primary)
+  }
+p.nombre {
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 36px;
   }
 
+  h1.subtitulo {
+    font-family: "Cherry Bomb One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90px;
 
+  }
 
+  h2.about_me {
+    font-family: "Covered By Your Grace", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 96px;
+    color: var(--color-primary)
+  }
+  
 
+  h2.subnombre {
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 42px;
+  }
+  p.body {
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: medium;
+    font-style: normal;
+    font-size: 20px;
+  }
+
+  p.sub_bodybold {
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+  }
+  h1.titulo {
+    font-family: "Cherry Bomb One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 96px;
+
+  }
+  h3.sub_text {
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px;
+  }
 /* Programas Iconos */
 
 .iconos{ 
@@ -112,4 +177,13 @@
 background-color: #cb5c47;
 padding: 1rem;
 
+}
+
+/* Bakcground color */
+section.bg-beige{
+    background-color: var(--color-fondo);
+}
+
+section.bg-negro{
+    background-color: black;
 }

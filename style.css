@@ -62,11 +62,20 @@ h1.title {
     color: var(--color-primary)
   }
 p.nombre {
-    font-family: "Gabarito", sans-serif;
+    font-family: "Cherry Bomb One", system-ui;
     font-optical-sizing: auto;
     font-weight: bold;
     font-style: normal;
     font-size: 36px;
+    justify-content: center;
+    align-items: center;
+    display: inline-block; /* Se ajusta al texto */
+    padding: 10px 10px; /* Espaciado interno */
+    background-color: #4DB5D8;
+    border-radius: 25px; /* Bordes redondeados */
+    text-align: center;
+    margin: 10px; /* Espaciado externo */
+    color:white 
   }
 
   h1.subtitulo {
@@ -76,6 +85,24 @@ p.nombre {
     font-size: 90px;
 
   }
+  p.nombre_recuadro {
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    display: inline-block; /* Se ajusta al texto */
+    padding: 10px 10px; /* Espaciado interno */
+    border: 2px solid black; /* Contorno blanco */
+    background-color: #FDF0D5;
+    border-radius: 25px; /* Bordes redondeados */
+    text-align: center;
+    margin: 10px; /* Espaciado externo */
+    color:black        
+  }
+
 
   h2.about_me {
     font-family: "Covered By Your Grace", cursive;
@@ -99,9 +126,62 @@ p.nombre {
     font-weight: medium;
     font-style: normal;
     font-size: 20px;
-     justify-content: center;
-            align-items: center;
-            height: 100vh;
+    justify-content: center;
+    align-items: center;       
+  }
+  
+  p.Habilidades {
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: medium;
+    font-style: normal;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    display: inline-block; /* Se ajusta al texto */
+    padding: 10px 10px; /* Espaciado interno */
+    border: 2px solid black; /* Contorno blanco */
+    background-color: #B12A28;
+    border-radius: 25px; /* Bordes redondeados */
+    text-align: center;
+    margin: 10px; /* Espaciado externo */
+    color:white        
+  }
+
+  p.Fortalezas {
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: medium;
+    font-style: normal;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    display: inline-block; /* Se ajusta al texto */
+    padding: 10px 10px; /* Espaciado interno */
+    border: 2px solid black; /* Contorno blanco */
+    background-color: #4DB5D8;
+    border-radius: 25px; /* Bordes redondeados */
+    text-align: center;
+    margin: 10px; /* Espaciado externo */
+    color:white        
+  }
+
+  p.hobbies {
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: medium;
+    font-style: normal;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    display: inline-block; /* Se ajusta al texto */
+    padding: 10px 10px; /* Espaciado interno */
+    border: 2px solid black; /* Contorno blanco */
+    background-color: #FDF0D5;
+    border-radius: 25px; /* Bordes redondeados */
+    text-align: center;
+    margin: 10px; /* Espaciado externo */
+    color: black;        
   }
 
   p.bodycolor {
@@ -131,8 +211,23 @@ p.nombre {
     font-family: "Gabarito", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
+    font-style: black;
+    font-size: 40px;
+  }
+  p.diseños {
+    font-family: "Covered By Your Grace", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
     font-style: normal;
     font-size: 40px;
+  }
+
+  p.proyectos {
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: medium;
+    font-style: normal;
+    font-size: 20px;
   }
 /* Programas Iconos */
 
@@ -215,15 +310,42 @@ section.bg-blanco{
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.2); /* Efecto de sombra sutil */
     text-align: center;
 }
-/* Contorno de letras*/
-.recuadro {
-    display: inline-block; 
-    padding: 4px 4px; 
-    border: 2px solid black;
-    background-color: #B12A28;
-    border-radius: 15px; 
-    color: white; 
-    font-size: 18px;
-    text-align: center;
-    margin: 0px; 
+/* recuadros*/
+.recuadro_educacion {
+    border: 2px solid black; 
+    background-color: white; 
+    padding: 20px; /* Espaciado interno */
+    width: 60%; /* Ancho del recuadro */
+    max-width: 600px; /* Ancho máximo */
+    margin: 20px auto; /* Centrar el recuadro */
+    border-radius: 20px; /* Bordes redondeados */}
+
+.recuadro_blanco_aboutme {
+    border: 2px solid white; 
+    background-color: white; 
+    padding: 20px; /* Espaciado interno */
+    width: 60%; /* Ancho del recuadro */
+    max-width: 600px; /* Ancho máximo */
+    margin: 20px auto; /* Centrar el recuadro */
+    border-radius: 20px; /* Bordes redondeados */}
+
+
+    /* FLEXBOX*/
+.contenedor_presentacion {
+    display: flex; /* Activa Flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    gap: 20px; /* Espacio entre la imagen y el texto */
+    height: 100vh; /* Ocupa toda la pantalla */
+    background-color: #FDF0D5; /* Color de fondo */
 }
+
+.contenedor_aboutme {
+    display: flex; /* Activa Flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    gap: 20px; /* Espacio entre la imagen y el texto */
+    height: 100vh; /* Ocupa toda la pantalla */
+    background-color: #000000; /* Color de fondo */
+}
+

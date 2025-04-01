@@ -53,23 +53,23 @@
   </head>
 
   <body>
-
-    <nav><nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <a class="navbar-brand" href="#!">Portafolio</a>
+   <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#!">Portafolio</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+ 
+      </button>
+  
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
     <ul class="navbar-nav mr-auto mt-2 mt-md-0">
       <li class="nav-item"><a class="nav-link" href="#portada">Inicio</a></li>
-      <li class="nav-item"><a class="nav-link" href="#portada">About me</a></li>
-      <li class="nav-item"><a class="nav-link" href="#portada">Proyectos</a></li>
-
-
+      <li class="nav-item"><a class="nav-link" href="#aboutme">About me</a></li>
+      <li class="nav-item"><a class="nav-link" href="#basicinfo">Basic Information</a></li>
+      <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#!">Link</a>
+      <li class="nav-item"> <a class="nav-link" href="#Contacto">Contact</a>
       </li>
     </ul>
   </div>
@@ -77,131 +77,120 @@
 
     <!--seccion de presentacion --> 
     <div class="contenedor_presentacion bg-beige">
-    <div class="bg-beige">
-      <section class="bg-beige">
+      <section id="portada" class="container mt-5 text-center">
+       
+          <div class="d-flex  align-content-center">
+            <h1 class="title"> PORT</h1>
+            <img class= "icono" alt="icono de personaje" src="./src/img/ICONO 1 portada.png"/>
+            <h1 class="title">FOLIO</h1>
+      </div>
 
-    <section id="portada" class="container mt-5"></section>
-    <div class="d-flex  align-content-center">
-      <h1 class="title"> PORT</h1>
-      <img class= "icono"
-      alt="icono de personaje"
-      src="./src/img/ICONO 1 portada.png"/>
-      <h1 class="title">FOLIO</h1>
-      
-
-    </div>
-     
-
-      
       <p class="nombre_recuadro">Diana Coyac</p>
       <p class="nombre_recuadro">diseño</p>
-
       <p class="nombre">2025</p>
-
-    </div>
+      </section>
     </div>
 
       <!-- termina seccion portada -->
 
      <!-- About me--> 
-     <div class="contenedor_aboutme bg-negro">
-      <div class="bg-negro"> 
-         <section class="bg-negro">
+     <div class="contenedor_aboutme bg-negro">  <!-- fondo negro-->
+      <section class="aboutme_section">
+         
+          <div class="recuadro_blanco_aboutme bg-white row"> </div>
+            
+            
+            <div class="imagen_yo col-lg-4"> 
+            <img class= "foto" alt="foto de perfil" src="./src/img/1-oficio.png"/>
+            </div>
 
-          <div class="d-flex  align-content-center">
-          <div class="recuadro_blanco_aboutme">
-          <img class= "foto" alt="foto de perfil" src="./src/img/1-oficio.png"/>
-
-         <img class="estrella1" alt="estrella" src="./src/img/estrella.svg"/>
-
-         <img class="estrella2" alt="estrella" src="./src/img/estrella.svg"/>
-
-
+             <col-1> <img class="estrella1" alt="estrella" src="./src/img/estrella.svg"/> </col-1>
+            </section>
+            
+        <section> 
+          <div class="contenedor_aboutme_info" >
             <h1 class="subtitulo"> Diana Coyac</h1>
             <h2 class="subnombre"> Diseñadora</h2>
             <h2 class="about_me"> About me</h2>
             <p class="body"> Me llamo Diana Laura Coyac De Yta, naci el 10 de Abril del 2004, originaria de la ciudad
             de Puebla, México. Soy una joven estudiante universitaria en la UAM Cuajimalpa. Creativa y 
             a las tendencias de diseño. Busco especializarme en el diseño de interiores y la ilustración.</p>
-       
-            <p class="sub_bodybold"> MBTI     Signo   Ciudad</p>
-            <p class="body"> ENFP     Aries   CDMX</p>
+          
+            <table class="info-tabla">
+            <tr>
+                <th>MBTI</th>
+                <th>Signo</th>
+                <th>Ciudad</th>
+            </tr>
+            <tr>
+                <td>ENFP</td>
+                <td>Aries</td>
+                <td>México</td>
+            </tr>
+            <tr>
+                <td>
+                    <i class="bi bi-telephone"></i> 5591863160
+                </td>
+                <td>
+                    <i class="bi bi-envelope"></i> dayana82543@outlook.com
+                </td>
+                <td>
+                    <i class="bi bi-instagram"></i> @dial.hoppe
+                </td>
+            </tr>
+        </table>
 
-           <i class="bi bi-person-circle my-icon"></i>
-
-           <p class="body"> 5591863160</p>
-      
-            <i class="bi bi-instagram my-icon"></i>
-
-            <p class="body"> @dial.hoppe</p>
-       
-           <i class="bi bi-envelope my-icon"></i>
-      
-           <p class="body"> dayana82543@outlook.com </p>
-
-
-          </div> <!-- recuadro blanco -->
         </div>
+      </section>
+     </span>
 
+           <span col-lg-1> <img class="estrella2" alt="estrella" src="./src/img/estrella.svg"/> </span>
+            
+            </div> <!-- recuadro blanco -->
+           </div>
+         </div>
+        </section>
       </div>
-      </div>
-       <!-- termina seccion portada -->
+       <!-- termina seccion About Me -->
 
         <!-- basic information-->
-        <div class="bg-blanco>
-        <section class="bg-blanco">
+        <div class="bg-blanco">
+           <section class= "container basic_info bg-blanco">
 
-         <h1 class="titulo"> basic information</h1>
-         <h3 class="sub_text"> Habilidades</h3>
+           <h1 class="titulo"> basic information</h1>
+
+
          
-         <p class="Habilidades"> Ilustración</p> 
-         <p class="Habilidades"> Social Media</p>
-         <p class="Habilidades"> Branding y Logo</p>
-         <p class="Habilidades"> Serigrafía</p>
-         <p class="Habilidades"> Fotografía</p>
-         <p class="Habilidades"> Edición de videos</p>
+           <h3 class="sub_text"> Habilidades</h3>
+           <p class="Habilidades"> Ilustración</p> 
+           <p class="Habilidades"> Social Media</p>
+           <p class="Habilidades"> Branding y Logo</p>
+           <p class="Habilidades"> Serigrafía</p>
+           <p class="Habilidades"> Fotografía</p>
+           <p class="Habilidades"> Edición de videos</p>
 
-         <h3 class="sub_text"> Fortalezas</h3>
-         <p class="Fortalezas"> Creativa</p>
-         <p class="Fortalezas"> Proactiva</p>
-         <p class="Fortalezas" > Trabajo en equipo</p>
-         <p class="Fortalezas"> Liderazgo</p>
+           <h3 class="sub_text"> Fortalezas</h3>
+           <p class="Fortalezas"> Creativa</p>
+           <p class="Fortalezas"> Proactiva</p>
+           <p class="Fortalezas" > Trabajo en equipo</p>
+           <p class="Fortalezas"> Liderazgo</p>
 
          <h3 class="sub_text"> Educación</h3>
-
-         <div class="recuadro_educacion"> 
-         <p class= "sub_bodybold"> 2022-2023</p>
-         <p class= "body"> Preparatoria TecMilenio Campus Puebla</p>
-         <p class= "sub_bodybold"> 2023-actual</p>
-          <p class= "body"> UAM Cuajimalpa, CDMX
-            </p>
+           <div class="recuadro_educacion"> 
+             <p class= "sub_bodybold"> 2022-2023</p>
+             <p class= "body"> Preparatoria TecMilenio Campus Puebla</p>
+             <p class= "sub_bodybold"> 2023-actual</p>
+             <p class= "body"> UAM Cuajimalpa, CDMX</p>
          </div>
 
          <h3 class="sub_text"> Programas</h3>
 
-         <img class= "iconos"
-         alt= "illustrator"
-         src="./src/img/illustrator.svg"/> 
-
-         <img class="iconos"
-         alt="photoshop"
-         src="./src/img/photoshop color.svg" />
-
-         <img class="iconos"
-         alt="autocad"
-         src="./src/img/autocad.png"/>
-
-         <img class="iconos"
-         alt="Premiere"
-         src="./src/img/icons8-adobe-premiere-pro.svg"/>
-
-         <img class="AfterEffects"
-         alt="After effects"
-         src="./src/img/icons8-adobe-after-effects color.svg"/>
-
-         <img class="Davinci"
-         alt="Da vinci"
-         src="./src/img/DaVinci_Resolve_Studio.png"/>
+         <img class= "iconos" alt= "illustrator" src="./src/img/illustrator.svg"/> 
+         <img class="iconos" alt="photoshop" src="./src/img/photoshop color.svg" />
+         <img class="iconos" alt="autocad" src="./src/img/autocad.png"/>
+         <img class="iconos" alt="Premiere" src="./src/img/icons8-adobe-premiere-pro.svg"/>
+         <img class="AfterEffects" alt="After effects" src="./src/img/icons8-adobe-after-effects color.svg"/>
+         <img class="Davinci" alt="Da vinci" src="./src/img/DaVinci_Resolve_Studio.png"/>
 
          <h3 class="sub_text"> Hobbies</h3>
          <p class="hobbies"> Cinéfila</p>
@@ -217,10 +206,49 @@
          <p class="body"> Chino Mandarín HSK1</p>
 
         </div>
+       </section>
+      </div>
 
          <!-- proyectos -->
-          <h1 class="titulo"> proyectos</h1>
-          <p class="diseños">diseños</p>
+         <h1 class="titulo"> proyectos</h1>
+         <p class="diseños">diseños</p> 
+
+         <div class="card-deck">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+
+            <div class="card-body">
+              <h5 class="card-title">MAPU</h5>
+              <p class="card-text"> Rompezabezas Mapu K'ulu</p>
+          
+  
+            </div>
+          </div>
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">NUVO</h5>
+              <p class="card-text"> Macetas NUVO</p>
+              <a href="#" class="card-link">Card link</a>
+              
+            </div>
+            <div class="card-footer">
+            </div>
+          </div>
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        
+          <!-- proyectos -->
+        
 
           
           <p class= "proyectos"> MAPU</p>

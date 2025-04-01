@@ -108,7 +108,7 @@ p.nombre {
     font-family: "Covered By Your Grace", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 96px;
+    font-size: 42px;
     color: var(--color-primary)
   }
   
@@ -320,14 +320,7 @@ section.bg-blanco{
     margin: 20px auto; /* Centrar el recuadro */
     border-radius: 20px; /* Bordes redondeados */}
 
-.recuadro_blanco_aboutme {
-    border: 2px solid white; 
-    background-color: white; 
-    padding: 20px; /* Espaciado interno */
-    width: 60%; /* Ancho del recuadro */
-    max-width: 600px; /* Ancho máximo */
-    margin: 20px auto; /* Centrar el recuadro */
-    border-radius: 20px; /* Bordes redondeados */}
+
 
 
     /* FLEXBOX*/
@@ -340,12 +333,59 @@ section.bg-blanco{
     background-color: #FDF0D5; /* Color de fondo */
 }
 
-.contenedor_aboutme {
-    display: flex; /* Activa Flexbox */
+.contenedor_aboutme { /* Fondo negro en about me */
+    display: flex; 
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
-    gap: 20px; /* Espacio entre la imagen y el texto */
-    height: 100vh; /* Ocupa toda la pantalla */
     background-color: #000000; /* Color de fondo */
 }
+.recuadro_blanco_aboutme {
+  border: 2px solid white; 
+  background-color: white; 
+  padding: 150px; /* Espaciado interno */
+  width: 100%; /* Ancho del recuadro */
+  /* max-width: 600px; Ancho máximo */
+  margin: 20px auto; /* Centrar el recuadro */
+  border-radius: 20px; /* Bordes redondeados */}
 
+
+.contenedor_aboutme_info
+    display: flex; 
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+
+    .imagen_yo
+    display: flex-start; /* Activa Flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+
+
+
+
+ /* Responsive CSS */
+
+
+ /* TABLA ABOUT ME */
+ .info-tabla {
+  width: 60%; /* Ajusta el ancho de la tabla */
+  margin: 20px auto; /* Centra la tabla */
+  border-collapse: collapse; /* Une los bordes de la tabla */
+  font-family: "Gabarito", sans-serif;
+  font-size: 20px;
+}
+
+.info-tabla th, .info-tabla td {
+  border: 4px solid black; /* Borde de las celdas */
+  padding: 10px; /* Espaciado dentro de las celdas */
+  text-align: center; /* Centrar el texto */
+}
+
+.info-tabla th {
+  background-color: #333; /* Fondo oscuro para los encabezados */
+  color: white; /* Texto en blanco */
+}
+
+.info-tabla td i {
+  margin-right: 5px; /* Espaciado entre el icono y el texto */
+  color: #333; /* Color de los iconos */
+}

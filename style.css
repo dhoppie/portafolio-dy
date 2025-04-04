@@ -1,12 +1,12 @@
 /* Add styles here */
 :root {
-    /* here variable goes */
-    --color-primary: #b12a28;
-    --color-fondo: #FDF0D5;
+  /* here variable goes */
+  --color-primary: #b12a28;
+  --color-fondo: #FDF0D5;
 
-    
-    /* --font-headings: */
-    --font-body: #000000;
+
+  /* --font-headings: */
+  --font-body: #000000;
 }
 
 /*import bootstrap */
@@ -15,34 +15,42 @@
 
 /*size imagenes */
 .btn--primary {
-    color: var(--color-primary);
+  color: var(--color-primary);
 }
+
 .icono {
-    max-width: 200px;}
+  max-width: 300px;
+}
 
 .foto {
-    max-width: 300px;
+  max-width: 500px;
 }
 
 .iconocontacto {
-    max-width: 45px;
+  max-width: 45px;
 }
 
+
+.star_wrapper{
+  
+
+}
 .estrella1 {
-    max-width: 100px;
+  max-width: 100px;
 }
 
 .estrella2 {
-    max-width: 80px;
+  max-width: 80px;
 }
+
 /* Importar bootstrap iconos */
 
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
 
-.my-icon{
-    color: black;
-    font-size: 3rem;
+.my-icon {
+  color: black;
+  font-size: 3rem;
 }
 
 /* Importar fuentes */
@@ -55,337 +63,504 @@
 /* Fonts */
 
 h1.title {
-    font-family: "Cherry Bomb One", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 200px;
-    color: var(--color-primary)
-  }
+  font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 200px;
+  color: var(--color-primary)
+}
+
 p.nombre {
-    font-family: "Cherry Bomb One", system-ui;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 36px;
-    justify-content: center;
-    align-items: center;
-    display: inline-block; /* Se ajusta al texto */
-    padding: 10px 10px; /* Espaciado interno */
-    background-color: #4DB5D8;
-    border-radius: 25px; /* Bordes redondeados */
-    text-align: center;
-    margin: 10px; /* Espaciado externo */
-    color:white 
-  }
-
-  h1.subtitulo {
-    font-family: "Cherry Bomb One", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 90px;
-
-  }
-  p.nombre_recuadro {
-    font-family: "Gabarito", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 30px;
-    justify-content: center;
-    align-items: center;
-    display: inline-block; /* Se ajusta al texto */
-    padding: 10px 10px; /* Espaciado interno */
-    border: 2px solid black; /* Contorno blanco */
-    background-color: #FDF0D5;
-    border-radius: 25px; /* Bordes redondeados */
-    text-align: center;
-    margin: 10px; /* Espaciado externo */
-    color:black        
-  }
-
-
-  h2.about_me {
-    font-family: "Covered By Your Grace", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 42px;
-    color: var(--color-primary)
-  }
-  
-
-  h2.subnombre {
-    font-family: "Gabarito", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 42px;
-  }
-  p.body {
-    font-family: "Gabarito", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: medium;
-    font-style: normal;
-    font-size: 20px;
-    justify-content: center;
-    align-items: center;       
-  }
-  
-  p.Habilidades {
-    font-family: "Gabarito", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: medium;
-    font-style: normal;
-    font-size: 20px;
-    justify-content: center;
-    align-items: center;
-    display: inline-block; /* Se ajusta al texto */
-    padding: 10px 10px; /* Espaciado interno */
-    border: 2px solid black; /* Contorno blanco */
-    background-color: #B12A28;
-    border-radius: 25px; /* Bordes redondeados */
-    text-align: center;
-    margin: 10px; /* Espaciado externo */
-    color:white        
-  }
-
-  p.Fortalezas {
-    font-family: "Gabarito", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: medium;
-    font-style: normal;
-    font-size: 20px;
-    justify-content: center;
-    align-items: center;
-    display: inline-block; /* Se ajusta al texto */
-    padding: 10px 10px; /* Espaciado interno */
-    border: 2px solid black; /* Contorno blanco */
-    background-color: #4DB5D8;
-    border-radius: 25px; /* Bordes redondeados */
-    text-align: center;
-    margin: 10px; /* Espaciado externo */
-    color:white        
-  }
-
-  p.hobbies {
-    font-family: "Gabarito", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: medium;
-    font-style: normal;
-    font-size: 20px;
-    justify-content: center;
-    align-items: center;
-    display: inline-block; /* Se ajusta al texto */
-    padding: 10px 10px; /* Espaciado interno */
-    border: 2px solid black; /* Contorno blanco */
-    background-color: #FDF0D5;
-    border-radius: 25px; /* Bordes redondeados */
-    text-align: center;
-    margin: 10px; /* Espaciado externo */
-    color: black;        
-  }
-
-  p.bodycolor {
-    background-color: #B12A28;
-    font-family: "Gabarito", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: medium;
-    font-style: normal;
-    font-size: 20px;
-  }
-
-  p.sub_bodybold {
-    font-family: "Gabarito", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 20px;
-  }
-  h1.titulo {
-    font-family: "Cherry Bomb One", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 96px;
-
-  }
-  h3.sub_text {
-    font-family: "Gabarito", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: black;
-    font-size: 40px;
-  }
-  p.diseños {
-    font-family: "Covered By Your Grace", cursive;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 40px;
-  }
-
-  p.proyectos {
-    font-family: "Gabarito", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: medium;
-    font-style: normal;
-    font-size: 20px;
-  }
-/* Programas Iconos */
-
-.iconos{ 
-    max-width:70px;
-}
-.iconos{ 
-    max-width:70px;
-}
-.iconos{ 
-    max-width:70px;
-}
-.Davinci{ 
-    max-width:70px;
+  font-family: "Cherry Bomb One", system-ui;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 36px;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  /* Se ajusta al texto */
+  padding: 10px 10px;
+  /* Espaciado interno */
+  background-color: #4DB5D8;
+  border-radius: 25px;
+  /* Bordes redondeados */
+  text-align: center;
+  margin: 10px;
+  /* Espaciado externo */
+  color: white
 }
 
-.AfterEffects{ 
-    max-width:70px;
+h1.subtitulo {
+  font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 90px;
+
+}
+
+p.nombre_recuadro {
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  /* Se ajusta al texto */
+  padding: 10px 10px;
+  /* Espaciado interno */
+  border: 2px solid black;
+  /* Contorno blanco */
+  background-color: #FDF0D5;
+  border-radius: 25px;
+  /* Bordes redondeados */
+  text-align: center;
+  margin: 10px;
+  /* Espaciado externo */
+  color: black
+}
+
+
+h2.about_me {
+  font-family: "Covered By Your Grace", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 42px;
+  color: var(--color-primary)
+}
+
+
+h2.subnombre {
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 42px;
+}
+
+p.body {
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: medium;
+  font-style: normal;
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+p.body_aboutme {
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: medium;
+  font-style: normal;
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: content-box;
+}
+
+p.Habilidades {
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: medium;
+  font-style: normal;
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  /* Se ajusta al texto */
+  padding: 5px 8px;
+  /* Espaciado interno */
+  border: 3px solid black;
+  /* Contorno blanco */
+  background-color: #B12A28;
+  border-radius: 25px;
+  /* Bordes redondeados */
+  text-align: center;
+  margin: 9px;
+  /* Espaciado externo */
+  color: white
+}
+
+p.Fortalezas {
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: medium;
+  font-style: normal;
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  /* Se ajusta al texto */
+  padding: 10px 10px;
+  /* Espaciado interno */
+  border: 2px solid black;
+  /* Contorno blanco */
+  background-color: #4DB5D8;
+  border-radius: 25px;
+  /* Bordes redondeados */
+  text-align: center;
+  margin: 10px;
+  /* Espaciado externo */
+  color: white
+}
+
+p.hobbies {
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: medium;
+  font-style: normal;
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  /* Se ajusta al texto */
+  padding: 10px 10px;
+  /* Espaciado interno */
+  border: 2px solid black;
+  /* Contorno blanco */
+  background-color: #FDF0D5;
+  border-radius: 25px;
+  /* Bordes redondeados */
+  text-align: center;
+  margin: 10px;
+  /* Espaciado externo */
+  color: black;
+}
+
+p.bodycolor {
+  background-color: #B12A28;
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: medium;
+  font-style: normal;
+  font-size: 24px;
+}
+
+p.sub_bodybold {
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 24px;
+}
+
+h1.titulo {
+  font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 96px;
+
+}
+
+h3.sub_text {
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: black;
+  font-size: 40px;
+}
+
+p.diseños {
+  font-family: "Covered By Your Grace", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+
+p.proyectos {
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: medium;
+  font-style: normal;
+  font-size: 24px;
 }
 
 /* Proyecto MAPU*/
 
-.MAPU{ 
-    max-width:400px;
+.MAPU {
+  max-width: 400px;
 }
-.patron{ 
-    max-width:400px;
+
+.patron {
+  max-width: 400px;
 }
 
 /* Proyecto RTP */
-.Mapaubicación{ 
-    max-width:400px;
+.Mapaubicación {
+  max-width: 400px;
 }
 
-.reticula{ 
-    max-width:200px;
+.reticula {
+  max-width: 200px;
 }
 
-.logoRTP{ 
-    max-width:200px;
+.logoRTP {
+  max-width: 200px;
 }
 
-.logoRTP2{ 
-    max-width:200px;
+.logoRTP2 {
+  max-width: 200px;
 }
 
 /* Contacto final*/
-.HOPIE{ 
-    max-width:300px;
+.HOPIE {
+  max-width: 300px;
 }
 
 
-.habilidades-rojo{
-background-color: #cb5c47;
-padding: 1rem;
+.habilidades-rojo {
+  background-color: #cb5c47;
+  padding: 1rem;
 
 }
 
 /* Bakcground color */
-section.bg-beige{
-    background-color: var(--color-fondo);
+section.bg-beige {
+  background-color: var(--color-fondo);
 }
 
-section.bg-negro{
-    background-color: black;
+section.bg-negro {
+  background-color: black;
 }
 
-section.bg-blanco{
-    background-color: white
-    ;
+section.bg-blanco {
+  background-color: white;
 }
 
 .bg-white {
-    background-color: white;
-    color: black;
-    padding: 30px;
-    width: 60%; 
-    max-width: 600px; 
-    border-radius: 15px; /* Bordes redondeados */
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2); /* Efecto de sombra sutil */
-    text-align: center;
+  background-color: white;
+  color: black;
+  padding: 30px;
+  width: 60%;
+  max-width: 600px;
+  border-radius: 15px;
+  /* Bordes redondeados */
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+  /* Efecto de sombra sutil */
+  text-align: center;
 }
+
 /* recuadros*/
 .recuadro_educacion {
-    border: 2px solid black; 
-    background-color: white; 
-    padding: 20px; /* Espaciado interno */
-    width: 60%; /* Ancho del recuadro */
-    max-width: 600px; /* Ancho máximo */
-    margin: 20px auto; /* Centrar el recuadro */
-    border-radius: 20px; /* Bordes redondeados */}
+  border: 2px solid black;
+  background-color: white;
+  padding: 20px;
+  /* Espaciado interno */
+  width: 102%;
+  /* Ancho del recuadro */
+  max-width: 600px;
+  /* Ancho máximo */
+  margin: 20px auto;
+  /* Centrar el recuadro */
+  border-radius: 20px;
+  /* Bordes redondeados */
+}
 
 
 
 
-    /* FLEXBOX*/
+/* FLEXBOX*/
 .contenedor_presentacion {
-    display: flex; /* Activa Flexbox */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    gap: 20px; /* Espacio entre la imagen y el texto */
-    height: 100vh; /* Ocupa toda la pantalla */
-    background-color: #FDF0D5; /* Color de fondo */
+  display: flex;
+  /* Activa Flexbox */
+  justify-content: center;
+  /* Centra horizontalmente */
+  align-items: center;
+  /* Centra verticalmente */
+  gap: 20px;
+  /* Espacio entre la imagen y el texto */
+  height: 100vh;
+  /* Ocupa toda la pantalla */
+  background-color: #FDF0D5;
+  /* Color de fondo */
 }
 
-.contenedor_aboutme { /* Fondo negro en about me */
-    display: flex; 
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    background-color: #000000; /* Color de fondo */
+.contenedor_aboutme {
+  /* Fondo negro en about me */
+  display: flex;
+  justify-content: center;
+  /* Centra horizontalmente */
+  align-items: center;
+  /* Centra verticalmente */
+  background-color: #000000;
+  /* Color de fondo */
 }
+
 .recuadro_blanco_aboutme {
-  border: 2px solid white; 
-  background-color: white; 
-  padding: 150px; /* Espaciado interno */
-  width: 100%; /* Ancho del recuadro */
+  border: 2px solid white;
+  background-color: white;
+
+  width: 75vw;
+  /* Ancho del recuadro */
   /* max-width: 600px; Ancho máximo */
-  margin: 20px auto; /* Centrar el recuadro */
-  border-radius: 20px; /* Bordes redondeados */}
+  margin: 20px auto;
+  /* Centrar el recuadro */
+  border-radius: 20px;
+  /* Bordes redondeados */
+  display: flex;
+  /* Activa Flexbox */
+  /* justify-content: space-between; */
+  /* Centra horizontalmente */
+  padding: 70px;
+  /* Agrega espacio interno */
+  align-items: center;
+  /* Centra verticalmente */
+  box-sizing: border-box;
+
+}
 
 
-.contenedor_aboutme_info
-    display: flex; 
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center;
+.contenedor_aboutme_info {
+  display: flex;
+  justify-content: center;
+  /* Centra horizontalmente */
+  align-items: center;
+  max-width: 40vw;
+  padding:2rem;
+}
 
-    .imagen_yo
-    display: flex-start; /* Activa Flexbox */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
+.imagen_yo {
+  display: flex-start;
+  /* Activa Flexbox */
+  justify-content: center;
+  /* Centra horizontalmente */
+  align-items: center;
+  /* Centra verticalmente */
+}
 
 
 
+/* Responsive CSS */
 
- /* Responsive CSS */
 
-
- /* TABLA ABOUT ME */
- .info-tabla {
-  width: 60%; /* Ajusta el ancho de la tabla */
-  margin: 20px auto; /* Centra la tabla */
-  border-collapse: collapse; /* Une los bordes de la tabla */
+/* TABLA ABOUT ME */
+.info-tabla {
+  width: 60%;
+  /* Ajusta el ancho de la tabla */
+  margin: 20px auto;
+  /* Centra la tabla */
+  border-collapse: collapse;
+  /* Une los bordes de la tabla */
   font-family: "Gabarito", sans-serif;
   font-size: 20px;
 }
 
-.info-tabla th, .info-tabla td {
-  border: 4px solid black; /* Borde de las celdas */
-  padding: 10px; /* Espaciado dentro de las celdas */
-  text-align: center; /* Centrar el texto */
+.info-tabla th,
+.info-tabla td {
+  border: 4px solid black;
+  /* Borde de las celdas */
+  padding: 10px;
+  /* Espaciado dentro de las celdas */
+  text-align: center;
+  /* Centrar el texto */
+  font-size: 24px;
 }
 
 .info-tabla th {
-  background-color: #333; /* Fondo oscuro para los encabezados */
-  color: white; /* Texto en blanco */
+  background-color: #333;
+  /* Fondo oscuro para los encabezados */
+  color: white;
+  /* Texto en blanco */
+
 }
 
 .info-tabla td i {
-  margin-right: 5px; /* Espaciado entre el icono y el texto */
-  color: #333; /* Color de los iconos */
+  margin-right: 5px;
+  /* Espaciado entre el icono y el texto */
+  color: #333;
+  /* Color de los iconos */
+
+}
+
+/* basic information */
+.icono_de_personaje_2 {
+  max-width: 800px;
+}
+
+.recuadro_basicinfo {
+  display: flex;
+  justify-content: space-between;
+  /* Distribuye las columnas */
+  align-items: flex-start;
+  /* Alinea elementos al inicio */
+  padding: 20px;
+  max-width: 900px;
+}
+
+/* Columnas */
+.columna {
+  flex: 1;
+  /* Ocupa espacio proporcionalmente */
+  padding: 30px;
+}
+
+/* Centrar imagen en la primera columna */
+.izquierda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Espaciado entre elementos en la segunda columna */
+.centro p,
+.derecha p {
+  margin: 6px 6px;
+}
+
+/* Programas Iconos */
+
+.iconos {
+  max-width: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  /* Permite que los iconos se acomoden en varias líneas si es necesario */
+  gap: 10px;
+}
+
+.iconos2 {
+  max-width: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  /* Permite que los iconos se acomoden en varias líneas si es necesario */
+  gap: 10px;
+}
+
+.habilidades-container1 {
+  display: flex;
+  justify-content: center;
+  /* Centra horizontalmente */
+  align-items: center;
+}
+
+.habilidades-container2 {
+  display: flex;
+  justify-content: center;
+  /* Centra horizontalmente */
+  align-items: center;
+}
+
+.fortalezas-container {
+  display: flex;
+  justify-content: center;
+  /* Centra horizontalmente */
+  align-items: center;
+}
+
+
+.iconos_programas1 {
+  display: flex;
+  justify-content: center;
+  /* Centra horizontalmente */
+  align-items: center;
+}
+
+.iconos_programas2 {
+  display: flex;
+  justify-content: center;
+  /* Centra horizontalmente */
+  align-items: center;
 }

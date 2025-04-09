@@ -110,7 +110,7 @@ p.nombre_recuadro {
   display: inline-block;
   /* Se ajusta al texto */
   padding: 10px 10px;
-  /* Espaciado interno */
+ 
   border: 2px solid black;
   /* Contorno blanco */
   background-color: #FDF0D5;
@@ -306,10 +306,6 @@ p.proyectos {
   max-width: 200px;
 }
 
-/* Contacto final*/
-.HOPIE {
-  max-width: 300px;
-}
 
 
 .habilidades-rojo {
@@ -395,20 +391,11 @@ section.bg-blanco {
   background-color: white;
 
   width: 75vw;
-  /* Ancho del recuadro */
-  /* max-width: 600px; Ancho máximo */
   margin: 20px auto;
-  /* Centrar el recuadro */
   border-radius: 20px;
-  /* Bordes redondeados */
   display: flex;
-  /* Activa Flexbox */
-  /* justify-content: space-between; */
-  /* Centra horizontalmente */
   padding: 70px;
-  /* Agrega espacio interno */
   align-items: center;
-  /* Centra verticalmente */
   box-sizing: border-box;
 
 }
@@ -546,7 +533,6 @@ section.bg-blanco {
 .fortalezas-container {
   display: flex;
   justify-content: center;
-  /* Centra horizontalmente */
   align-items: center;
 }
 
@@ -554,13 +540,124 @@ section.bg-blanco {
 .iconos_programas1 {
   display: flex;
   justify-content: center;
-  /* Centra horizontalmente */
   align-items: center;
 }
 
 .iconos_programas2 {
   display: flex;
   justify-content: center;
-  /* Centra horizontalmente */
   align-items: center;
+}
+
+/* Proyectos */
+.contenedor2_negro {
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+ 
+}
+
+h1.titulo_white {
+  font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 96px;
+  color:white
+}
+
+p.diseños_blanco {
+  font-family: "Covered By Your Grace", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+  color:white
+}
+
+p.proyectos_white {
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: medium;
+  font-style: normal;
+  font-size: 24px;
+  color: white
+}
+
+
+
+.mapu_recuadro {
+  max-width: 400px;
+}
+
+.nuvo_recuadro {
+  max-width: 400px;
+}
+
+.emocionario_recuadro {
+  max-width: 400px;
+}
+
+.rutaRTP_recuadro {
+  max-width: 400px;
+}
+
+.estudihambre {
+  max-width: 400px;
+}
+
+.enbuscadelcolor {
+  max-width: 400px;
+}
+
+
+.proyecto_NUVO{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+.proyecto_MAPU{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.proyecto_emocionario{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.proyecto_RTP{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.proyecto_estudihambre{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.proyecto_animacion{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+/* Contacto final*/
+.HOPIE {
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 20px;
 }

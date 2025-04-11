@@ -19,11 +19,11 @@
 }
 
 .icono {
-  max-width: 300px;
+  max-width: 17rem;
 }
 
 .foto {
-  max-width: 500px;
+  max-width: 35rem;
 }
 
 .iconocontacto {
@@ -82,7 +82,7 @@ p.nombre {
   /* Se ajusta al texto */
   padding: 10px 10px;
   /* Espaciado interno */
-  background-color: #4DB5D8;
+  background-color: #3399CC;
   border-radius: 25px;
   /* Bordes redondeados */
   text-align: center;
@@ -171,7 +171,7 @@ p.Habilidades {
   align-items: center;
   display: inline-block;
   /* Se ajusta al texto */
-  padding: 5px 8px;
+  padding: 10px 6px;
   /* Espaciado interno */
   border: 3px solid black;
   /* Contorno blanco */
@@ -198,7 +198,7 @@ p.Fortalezas {
   /* Espaciado interno */
   border: 2px solid black;
   /* Contorno blanco */
-  background-color: #4DB5D8;
+  background-color: #3399CC;
   border-radius: 25px;
   /* Bordes redondeados */
   text-align: center;
@@ -390,11 +390,11 @@ section.bg-blanco {
   border: 2px solid white;
   background-color: white;
 
-  width: 75vw;
+  width: 67vw;
   margin: 20px auto;
   border-radius: 20px;
   display: flex;
-  padding: 70px;
+  padding: 30px;
   align-items: center;
   box-sizing: border-box;
 
@@ -495,7 +495,7 @@ section.bg-blanco {
 /* Espaciado entre elementos en la segunda columna */
 .centro p,
 .derecha p {
-  margin: 6px 6px;
+  margin: 7px 5px;
 }
 
 /* Programas Iconos */
@@ -615,6 +615,7 @@ p.proyectos_white {
     flex-direction: column;
     align-items: center;
     padding: 1rem;
+    max-width:30rem;
 
 }
 
@@ -623,6 +624,7 @@ p.proyectos_white {
     flex-direction: column;
     align-items: center;
     padding: 1rem;
+    max-width:30rem;
 }
 
 .proyecto_emocionario{
@@ -630,6 +632,7 @@ p.proyectos_white {
     flex-direction: column;
     align-items: center;
     padding: 1rem;
+    max-width:30rem;
 }
 
 .proyecto_RTP{
@@ -637,6 +640,7 @@ p.proyectos_white {
     flex-direction: column;
     align-items: center;
     padding: 1rem;
+    max-width:30rem;
 }
 
 .proyecto_estudihambre{
@@ -644,6 +648,7 @@ p.proyectos_white {
     flex-direction: column;
     align-items: center;
     padding: 1rem;
+    max-width:30rem;
 }
 
 .proyecto_animacion{
@@ -651,6 +656,7 @@ p.proyectos_white {
     flex-direction: column;
     align-items: center;
     padding: 1rem;
+    max-width:30rem;
 }
 
 /* Contacto final*/

@@ -1,0 +1,99 @@
+
+
+/* Importar fuentes */
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Cherry+Bomb+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Cherry+Bomb+One&family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Cherry+Bomb+One&family=Covered+By+Your+Grace&family=Gabarito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+/* Fonts */
+
+h1.titulos {
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+
+p.body {
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: medium;
+    font-style: normal;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+/* MAPU */
+.MAPU {
+    max-width: 100px;
+}
+
+.patronMAPU {
+    max-width: 800px;
+}
+
+.recuadro_mapu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    max-width: 2000px;
+    margin: 40px auto;
+    gap: 40px;
+  }
+
+  .columna {
+    flex: 1;
+  }
+  
+  .columna.izquierda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* NUVO */
+
+  .Empaque_NUVO {
+    max-width: 200px;
+  }
+
+  .LogoNUVO{
+    max-width: 200px;
+  }
+  
+  .Macetas {
+    max-width: 800px;
+  }
+
+  .recuadro_nuvo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    max-width: 2000px;
+    margin: 40px auto;
+    gap: 40px;
+  }
+
+  .columna.2 {
+    flex: 1;
+  }
+  
+  .columna.izquierda.2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  

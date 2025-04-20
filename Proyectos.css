@@ -86,14 +86,201 @@ p.body {
     gap: 40px;
   }
 
-  .columna.2 {
+  .columna_2 {
     flex: 1;
   }
   
-  .columna.izquierda.2 {
+  .columna_izquierda_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+   /* Emocionario*/
+   
+   .libro_portada {
+    max-width: 200px;
+  }
+   
+  .contraportada {
+    max-width: 200px;
+  }
+
+  .Bolsa {
+    max-width: 200px;
+  }
+   
+  .libro{
+    max-width: 200px;
+  }
+
+  .recuadro_emocionario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    max-width: 2000px;
+    margin: 10rem;
+    gap: 40px;
+  }
+
+  .columna_4 {
+    flex: 1;
+  }
+  
+  .columna_izquierda_4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+
+   /* Ruta RTP*/
+   .parabus {
+    max-width: 200px;
+  }
+
+  .Mapaubicación {
+    max-width: 200px;
+  }
+
+  .logoRTP {
+    max-width: 200px;
+  }
+
+  
+  .logoRTP2 {
+    max-width: 200px;
+  }
+
+    
+  .reticula {
+    max-width: 200px;
+  }
+
+  .recuadro_RutaRTP {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    max-width: 2000px;
+    margin: 10rem;
+    gap: 40px;
+  }
+
+  .columna_5 {
+    flex: 1;
+  }
+  
+  .columna_izquierda_5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+
+
+
+
+
+
+   /* Estudihambre */
+
+   .personajes{
+    max-width: 200px;
+  }
+  
+  .tarjetas {
+    max-width: 200px;
+  }
+
+  .caja_con_tarjetas {
+    max-width: 200px;
+  }
+  
+  .caja {
+    max-width: 200px;
+  }
+
+  .tablero {
+    max-width: 200px;
+  }
+  
+  .recuadro_HoradeComer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    max-width: 2000px;
+    margin: 40px auto;
+    gap: 40px;
+  }
+
+  .columna {
+    flex: 1;
+  }
+  
+  .columna_izquierda {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
   
+  /* Animacion */
+
+    .bocetos {
+      max-width: 25%;
+    }
+
+    .Iris_De_lado {
+      max-width: 25%;
+    }
+
+    .Iris_Frontal{
+      max-width: 25%;
+    }
+
+    .EscCastillo {
+      max-width: 25%;
+    }
+
+    .Estrellas {
+      max-width: 25%;
+    }
+
+    .castillo {
+      max-width: 25%;
+    }
+    
+    
+  .recuadro_animacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    max-width: 2000px;
+    margin: 40px auto;
+    gap: 40px;
+  }
+
+  .columna_6 {
+    flex: 1;
+  }
+  
+  .columna.izquierda_6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+
+
+

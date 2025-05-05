@@ -14,7 +14,7 @@ h1.titulos {
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
-    font-size: 100px;
+    font-size: 3.47vw;
     justify-content: center;
     align-items: center;
   }
@@ -26,19 +26,49 @@ p.body {
     font-optical-sizing: auto;
     font-weight: medium;
     font-style: normal;
-    font-size: 30px;
+    font-size: 1.04vw;
     justify-content: center;
     align-items: center;
   }
 
 /* MAPU */
+.bi {
+  width: 3.47vw;
+}
+
+
 .MAPU {
-    max-width: 100px;
+    width: 3.47vw;
 }
 
 .patronMAPU {
-    max-width: 800px;
+    width: 27.78vw;
 }
+
+
+.icono-boton {
+  display: inline-block;
+  font-size: 3rem; /* Aumenta el tamaño del ícono */
+  color: black;
+  background-color: white;
+}
+
+.icono-boton:hover {
+  background-color: white;
+  transform: scale(1.1);
+}
+
+.icono-boton-derecha {
+  display: inline-block;
+  font-size: 3rem; /* Aumenta el tamaño del ícono */
+  color: black;
+  background-color: white;
+}
+
+.icono-boton-derecha:hover {
+  background-color: white;
+  transform: scale(1.1);
+} 
 
 .recuadro_mapu {
     display: flex;
@@ -63,19 +93,20 @@ p.body {
 
   /* NUVO */
 
-  .Empaque_NUVO {
-    max-width: 200px;
-  }
 
   .LogoNUVO{
-    max-width: 200px;
+    width: 35.94vw;
   }
-  
-  .Macetas {
-    max-width: 800px;
+.Empaque_NUVO {
+    width: 35.94vw;
   }
 
-  .recuadro_nuvo {
+.Macetas {
+    width: 35.94vw;
+    max-width: none;
+  }
+
+.nuvo_recuadro {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -99,67 +130,75 @@ p.body {
    /* Emocionario*/
    
    .libro_portada {
-    max-width: 200px;
+    width: 27.78vw;
   }
    
   .contraportada {
-    max-width: 200px;
+    width: 27.78vw;
   }
 
   .Bolsa {
-    max-width: 200px;
+    width: 27.78vw;
   }
    
   .libro{
-    max-width: 200px;
+    width: 27.78vw;
   }
 
   .recuadro_emocionario {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     background-color: white;
     padding: 30px;
     max-width: 2000px;
-    margin: 10rem;
+    margin: 40px auto;
     gap: 40px;
   }
 
-  .columna_4 {
+  .columna3 {
     flex: 1;
   }
   
-  .columna_izquierda_4 {
+  .izquierda3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
+  .derecha3 {
+    padding-left: 10px;
+  }
 
+  img {
+    max-width: 100%; /* asegúrate que las imágenes no rompan el layout */
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+  }
 
    /* Ruta RTP*/
    .parabus {
-    max-width: 200px;
+    width: 6.94vw;
+    max-width: none;
   }
 
   .Mapaubicación {
-    max-width: 200px;
+    width: 27.78vw;
   }
 
   .logoRTP {
-    max-width: 200px;
+    width: 6.94vw;
   }
 
   
   .logoRTP2 {
-    max-width: 200px;
+    width: 6.94vw;
+    max-width: none;
+    height: auto;
   }
 
     
-  .reticula {
-    max-width: 200px;
-  }
-
   .recuadro_RutaRTP {
     display: flex;
     justify-content: space-between;
@@ -171,8 +210,8 @@ p.body {
     gap: 40px;
   }
 
-  .columna_5 {
-    flex: 1;
+  .columna_deerecha_5 {
+    flex: 0 0 auto;
   }
   
   .columna_izquierda_5 {
@@ -181,33 +220,26 @@ p.body {
     justify-content: center;
   }
 
-
-
-
-
-
-
-
    /* Estudihambre */
 
    .personajes{
-    max-width: 200px;
+    width: 6.94vw;
   }
   
   .tarjetas {
-    max-width: 200px;
+    max-width: 12.5rem;
   }
 
   .caja_con_tarjetas {
-    max-width: 200px;
+    width: 6.94vw;
   }
   
   .caja {
-    max-width: 200px;
+    width: 6.94vw;
   }
 
   .tablero {
-    max-width: 200px;
+    width: 6.94vw;
   }
   
   .recuadro_HoradeComer {
@@ -235,29 +267,33 @@ p.body {
   /* Animacion */
 
     .bocetos {
-      max-width: 25%;
+      max-width: 200px;
     }
 
     .Iris_De_lado {
-      max-width: 25%;
+      max-width: 200px;
     }
 
     .Iris_Frontal{
-      max-width: 25%;
+      max-width: 200px;
     }
 
     .EscCastillo {
-      max-width: 25%;
+      max-width: 200px;
     }
 
     .Estrellas {
-      max-width: 25%;
+      max-width: 200px;
     }
 
     .castillo {
-      max-width: 25%;
+      max-width: 200px;
     }
     
+    .iris-container {
+      display: flex;
+      gap: 20px; /* espacio entre Iris de lado y frontal */
+    }
     
   .recuadro_animacion {
     display: flex;
@@ -270,14 +306,19 @@ p.body {
     gap: 40px;
   }
 
-  .columna_6 {
+  .columna_derecha_6 {
     flex: 1;
-  }
-  
-  .columna.izquierda_6 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center; 
+  }
+  
+  .columna_izquierda_6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
   }
 
 
